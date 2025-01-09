@@ -30,7 +30,7 @@ public function test_console_command(): void
     $this->artisan('inspire')->assertExitCode(0);
 }
 ```
-
+other UI elements where an application name needs to be displayed.
 You may use the `assertNotExitCode` method to assert that the command did not exit with a given exit code:
 
     $this->artisan('inspire')->assertNotExitCode(1);
